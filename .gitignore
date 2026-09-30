@@ -1,0 +1,75 @@
+# https://dart.dev/guides/libraries/private-files
+# Created by https://www.toptal.com/developers/gitignore/api/flutter,visualstudiocode,androidstudio,intellij+all
+
+### AndroidStudio ###
+# If you use the IDE's built-in "Run" button, these files will be updated.
+.idea/
+*.iml
+*.iws
+*.ipr
+
+### AndroidStudio Patch ###
+# application-level
+/android/.idea/
+
+### Flutter ###
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+### IntelliJ ###
+# Covers JetBrains IDEs: IntelliJ, PyCharm, VSCode, etc.
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.settings/
+.classpath
+
+### VisualStudioCode ###
+.vscode/
+
+### Secrets and Environment ###
+.env*
+*.secret
+credentials.json
+
+### Others ###
+migrate_working_dir/
+
+# Herramientas de metodología / asistentes de IA (no forman parte de la app)
+.claude/
+.agents/
+skills/
+skills-lock.json
+CLAUDE.md
+GEMINI.md
